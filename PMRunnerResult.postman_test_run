@@ -1,0 +1,262 @@
+{
+	"id": "d57de60c-798f-4665-a34b-b3481852b24c",
+	"name": "JSONPlaceHolder",
+	"timestamp": "2024-01-16T01:53:20.387Z",
+	"collection_id": "12291469-c9c70776-cedf-4891-9547-d5fbd695a0b0",
+	"folder_id": "12291469-d2de172e-627a-4cc4-8f6c-66bd6a199089",
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-16T01:53:13.149Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9b912092-0ebf-4f3b-a840-171017094761",
+			"name": "CREATE a new post",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 125,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				317,
+				125,
+				121,
+				123,
+				125
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5d0e7e4e-4347-4782-896e-872148e812c0",
+			"name": "UPDATE post",
+			"url": "https://jsonplaceholder.typicode.com/posts/96",
+			"time": 314,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				127,
+				125,
+				306,
+				313,
+				314
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "7cb612f3-b569-42aa-8de5-1d6072e92dd4",
+			"name": "PATCH post",
+			"url": "https://jsonplaceholder.typicode.com/posts/96",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				127,
+				124,
+				123,
+				124,
+				136
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "f2d67f49-cc05-4b16-bbef-4543ad7f7e16",
+			"name": "GET All posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				34,
+				33,
+				42,
+				34,
+				32
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "53cdf1d3-ee5a-4625-86b3-d5b79e50dcad",
+			"name": "GET post By Id",
+			"url": "https://jsonplaceholder.typicode.com/posts/96",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56,
+				33,
+				40,
+				32,
+				31
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "c761e9a9-0cc8-4af6-951e-c3c09cab13cc",
+			"name": "FILTER posts by UserId",
+			"url": "https://jsonplaceholder.typicode.com/posts?userId=9",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48,
+				32,
+				35,
+				33,
+				37
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "a56ce5e3-e23f-43c0-a2a1-5600d08ee1bf",
+			"name": "GET  all comments from post",
+			"url": "https://jsonplaceholder.typicode.com/posts/96/comments",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				42,
+				31,
+				30,
+				30,
+				36
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "955be037-3a35-4162-ba9d-a1163f4fb43d",
+			"name": "DELETE post",
+			"url": "https://jsonplaceholder.typicode.com/posts/96",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				126,
+				123,
+				126,
+				123,
+				122
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 3971,
+	"collection": {
+		"requests": [
+			{
+				"id": "9b912092-0ebf-4f3b-a840-171017094761",
+				"method": "POST"
+			},
+			{
+				"id": "5d0e7e4e-4347-4782-896e-872148e812c0",
+				"method": "PUT"
+			},
+			{
+				"id": "7cb612f3-b569-42aa-8de5-1d6072e92dd4",
+				"method": "PATCH"
+			},
+			{
+				"id": "f2d67f49-cc05-4b16-bbef-4543ad7f7e16",
+				"method": "GET"
+			},
+			{
+				"id": "53cdf1d3-ee5a-4625-86b3-d5b79e50dcad",
+				"method": "GET"
+			},
+			{
+				"id": "c761e9a9-0cc8-4af6-951e-c3c09cab13cc",
+				"method": "GET"
+			},
+			{
+				"id": "a56ce5e3-e23f-43c0-a2a1-5600d08ee1bf",
+				"method": "GET"
+			},
+			{
+				"id": "955be037-3a35-4162-ba9d-a1163f4fb43d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
